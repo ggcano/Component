@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.component.Circle
+        android:id="@+id/circle"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:wheel_has_pointer_shadow="true"
+        app:wheel_max_process="100"
+        app:wheel_pointer_radius="25dp"
+        app:wheel_scroll_only_one_circle="true"
+        app:wheel_reached_has_corner_round="true"
+        app:wheel_pointer_shadow_radius="10dp"
+        app:wheel_reached_width="45dp"
+        app:wheel_can_touch="true"
+        app:wheel_unreached_width="45dp">
+
+    </com.example.component.Circle>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
